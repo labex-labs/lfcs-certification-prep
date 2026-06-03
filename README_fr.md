@@ -22,57 +22,79 @@ Un cours de préparation au LFCS adapté aux débutants, comprenant 49 travaux p
 
 [Commencer le Cours](https://labex.io/fr/courses/lfcs-prep) · Labs: 49
 
-|   Index | Nom                                                                      | Difficulté   | Pratique                                                                                                               |
-|---------|--------------------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------|
-|      01 | 🧩  Surveiller les performances du système                                | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/monitor-system-performance-663397?course=lfcs-prep)                        |
-|      02 | 🧩  Rechercher et résoudre les problèmes d'espace disque                  | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/find-and-fix-disk-space-issues-663384?course=lfcs-prep)                    |
-|      03 | 🧩  Inspecter les services avec systemctl et journalctl                   | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/inspect-services-with-systemctl-and-journalctl-663388?course=lfcs-prep)    |
-|      04 | 🧩  Inspecter les certificats SSL                                         | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/inspect-ssl-certificates-663389?course=lfcs-prep)                          |
-|      05 | 🧩  Suivi de configuration avec Git                                       | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/track-configuration-with-git-663404?course=lfcs-prep)                      |
-|      06 | 🧩  Gérer les utilisateurs locaux                                         | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-local-users-663391?course=lfcs-prep)                                |
-|      07 | 🧩  Gérer les groupes locaux et les appartenances                         | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-local-groups-and-membership-663390?course=lfcs-prep)                |
-|      08 | 🧩  Configurer un accès sudo limité                                       | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-limited-sudo-access-663368?course=lfcs-prep)                     |
-|      09 | 🧩  Gérer les profils d'environnement shell                               | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-shell-environment-profiles-663393?course=lfcs-prep)                 |
-|      10 | 🧩  Configurer les limites de ressources utilisateur                      | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-user-resource-limits-663378?course=lfcs-prep)                    |
-|      11 | 🧩  Configurer les ACL de fichiers                                        | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-file-acls-663361?course=lfcs-prep)                               |
-|      12 | 🧩  Configurer la recherche d'utilisateurs LDAP                           | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-ldap-user-lookup-663367?course=lfcs-prep)                        |
-|      13 | 🧩  Inspecter et gérer les processus                                      | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/inspect-and-manage-processes-663386?course=lfcs-prep)                      |
-|      14 | 🧩  Gérer le cycle de vie des services systemd                            | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-systemd-service-lifecycle-663395?course=lfcs-prep)                  |
-|      15 | 🧩  Créer un service systemd simple                                       | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/create-a-simple-systemd-service-663381?course=lfcs-prep)                   |
-|      16 | 🧩  Dépanner un service systemd en échec                                  | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/troubleshoot-a-failed-systemd-service-663405?course=lfcs-prep)             |
-|      17 | 🧩  Identifier les contraintes de ressources d'un service                 | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/identify-service-resource-constraints-663385?course=lfcs-prep)             |
-|      18 | 🧩  Planifier des tâches avec cron                                        | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/schedule-jobs-with-cron-663401?course=lfcs-prep)                           |
-|      19 | 🧩  Planifier des tâches avec les timers systemd                          | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/schedule-jobs-with-systemd-timers-663402?course=lfcs-prep)                 |
-|      20 | 🧩  Gérer les paquets logiciels                                           | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-software-packages-663394?course=lfcs-prep)                          |
-|      21 | 🧩  Configurer des dépôts de logiciels                                    | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-software-repositories-663374?course=lfcs-prep)                   |
-|      22 | 🧩  Configurer les paramètres du noyau                                    | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-kernel-parameters-663366?course=lfcs-prep)                       |
-|      23 | 🧩  Récupération après des états de défaillance du système d'exploitation | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/recover-from-safe-os-failure-states-663399?course=lfcs-prep)               |
-|      24 | 🧩  Exécuter et gérer des conteneurs                                      | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/run-and-manage-containers-663400?course=lfcs-prep)                         |
-|      25 | 🧩  Gérer le mode et les contextes SELinux                                | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-selinux-mode-and-contexts-663392?course=lfcs-prep)                  |
-|      26 | 🧩  Explorer la gestion des machines virtuelles avec libvirt              | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/explore-virtual-machine-management-with-libvirt-663382?course=lfcs-prep)   |
-|      27 | 🧩  Configuration du réseau IPv4 et résolution de noms d'hôte             | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-ipv4-networking-and-hostname-resolution-663364?course=lfcs-prep) |
-|      28 | 🧩  Configuration de l'adressage IPv6                                     | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-ipv6-addressing-663365?course=lfcs-prep)                         |
-|      29 | 🧩  Synchroniser l'heure du système                                       | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/synchronize-system-time-663403?course=lfcs-prep)                           |
-|      30 | 🧩  Dépanner la connectivité réseau                                       | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/troubleshoot-network-connectivity-663407?course=lfcs-prep)                 |
-|      31 | 🧩  Configurer l'accès client OpenSSH                                     | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-openssh-client-access-663369?course=lfcs-prep)                   |
-|      32 | 🧩  Configurer l'accès au serveur OpenSSH                                 | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-openssh-server-access-663370?course=lfcs-prep)                   |
-|      33 | 🧩  Configurer le filtrage de paquets du pare-feu                         | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-firewall-packet-filtering-663363?course=lfcs-prep)               |
-|      34 | 🧩  Configurer le routage statique                                        | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-static-routing-663375?course=lfcs-prep)                          |
-|      35 | 🧩  Configuration de la redirection de port et du NAT                     | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-port-redirection-and-nat-663372?course=lfcs-prep)                |
-|      36 | 🧩  Configurer un point de terminaison de proxy inverse                   | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-a-reverse-proxy-endpoint-663373?course=lfcs-prep)                |
-|      37 | 🧩  Configurer des périphériques Bridge et Bond                           | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-bridge-and-bond-devices-663360?course=lfcs-prep)                 |
-|      38 | 🧩  Inspecter les périphériques de bloc et les points de montage          | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/inspect-block-devices-and-mounts-663387?course=lfcs-prep)                  |
-|      39 | 🧩  Créer et monter des systèmes de fichiers                              | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/create-and-mount-filesystems-663379?course=lfcs-prep)                      |
-|      40 | 🧩  Configurer des points de montage persistants                          | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-persistent-mounts-663371?course=lfcs-prep)                       |
-|      41 | 🧩  Dépannage des erreurs fstab et de montage                             | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/troubleshoot-fstab-and-mount-failures-663406?course=lfcs-prep)             |
-|      42 | 🧩  Créer un stockage LVM                                                 | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/create-lvm-storage-663380?course=lfcs-prep)                                |
-|      43 | 🧩  Étendre le stockage LVM                                               | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/extend-lvm-storage-663383?course=lfcs-prep)                                |
-|      44 | 🧩  Configurer l'espace d'échange (Swap)                                  | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-swap-space-663376?course=lfcs-prep)                              |
-|      45 | 🧩  Configurer tmpfs et les systèmes de fichiers virtuels                 | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-tmpfs-and-virtual-filesystems-663377?course=lfcs-prep)           |
-|      46 | 🧩  Configurer le montage automatique de systèmes de fichiers             | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-filesystem-automounts-663362?course=lfcs-prep)                   |
-|      47 | 🧩  Monter des systèmes de fichiers distants                              | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/mount-remote-filesystems-663398?course=lfcs-prep)                          |
-|      48 | 🧩  Utiliser des périphériques de bloc réseau (NBD)                       | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/use-network-block-devices-663408?course=lfcs-prep)                         |
-|      49 | 🧩  Surveiller les performances de stockage                               | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/monitor-storage-performance-663396?course=lfcs-prep)                       |
+#### Essential Command Workflows
+
+|   Index | Nom                                                     | Difficulté   | Pratique                                                                                                            |
+|---------|---------------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------------|
+|       1 | 🧩  Surveiller les performances du système               | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/monitor-system-performance-663397?course=lfcs-prep)                     |
+|       2 | 🧩  Rechercher et résoudre les problèmes d'espace disque | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/find-and-fix-disk-space-issues-663384?course=lfcs-prep)                 |
+|       3 | 🧩  Inspecter les services avec systemctl et journalctl  | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/inspect-services-with-systemctl-and-journalctl-663388?course=lfcs-prep) |
+|       4 | 🧩  Inspecter les certificats SSL                        | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/inspect-ssl-certificates-663389?course=lfcs-prep)                       |
+|       5 | 🧩  Suivi de configuration avec Git                      | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/track-configuration-with-git-663404?course=lfcs-prep)                   |
+
+#### Users, Groups, and Access Control
+
+|   Index | Nom                                                 | Difficulté   | Pratique                                                                                                |
+|---------|-----------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------|
+|       1 | 🧩  Gérer les utilisateurs locaux                    | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-local-users-663391?course=lfcs-prep)                 |
+|       2 | 🧩  Gérer les groupes locaux et les appartenances    | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-local-groups-and-membership-663390?course=lfcs-prep) |
+|       3 | 🧩  Configurer un accès sudo limité                  | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-limited-sudo-access-663368?course=lfcs-prep)      |
+|       4 | 🧩  Gérer les profils d'environnement shell          | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-shell-environment-profiles-663393?course=lfcs-prep)  |
+|       5 | 🧩  Configurer les limites de ressources utilisateur | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-user-resource-limits-663378?course=lfcs-prep)     |
+|       6 | 🧩  Configurer les ACL de fichiers                   | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-file-acls-663361?course=lfcs-prep)                |
+|       7 | 🧩  Configurer la recherche d'utilisateurs LDAP      | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-ldap-user-lookup-663367?course=lfcs-prep)         |
+
+#### Services, Jobs, Software, and Runtime
+
+|   Index | Nom                                                                      | Difficulté   | Pratique                                                                                                             |
+|---------|--------------------------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------|
+|      01 | 🧩  Inspecter et gérer les processus                                      | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/inspect-and-manage-processes-663386?course=lfcs-prep)                    |
+|      02 | 🧩  Gérer le cycle de vie des services systemd                            | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-systemd-service-lifecycle-663395?course=lfcs-prep)                |
+|      03 | 🧩  Créer un service systemd simple                                       | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/create-a-simple-systemd-service-663381?course=lfcs-prep)                 |
+|      04 | 🧩  Dépanner un service systemd en échec                                  | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/troubleshoot-a-failed-systemd-service-663405?course=lfcs-prep)           |
+|      05 | 🧩  Identifier les contraintes de ressources d'un service                 | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/identify-service-resource-constraints-663385?course=lfcs-prep)           |
+|      06 | 🧩  Planifier des tâches avec cron                                        | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/schedule-jobs-with-cron-663401?course=lfcs-prep)                         |
+|      07 | 🧩  Planifier des tâches avec les timers systemd                          | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/schedule-jobs-with-systemd-timers-663402?course=lfcs-prep)               |
+|      08 | 🧩  Gérer les paquets logiciels                                           | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-software-packages-663394?course=lfcs-prep)                        |
+|      09 | 🧩  Configurer des dépôts de logiciels                                    | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-software-repositories-663374?course=lfcs-prep)                 |
+|      10 | 🧩  Configurer les paramètres du noyau                                    | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-kernel-parameters-663366?course=lfcs-prep)                     |
+|      11 | 🧩  Récupération après des états de défaillance du système d'exploitation | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/recover-from-safe-os-failure-states-663399?course=lfcs-prep)             |
+|      12 | 🧩  Exécuter et gérer des conteneurs                                      | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/run-and-manage-containers-663400?course=lfcs-prep)                       |
+|      13 | 🧩  Gérer le mode et les contextes SELinux                                | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/manage-selinux-mode-and-contexts-663392?course=lfcs-prep)                |
+|      14 | 🧩  Explorer la gestion des machines virtuelles avec libvirt              | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/explore-virtual-machine-management-with-libvirt-663382?course=lfcs-prep) |
+
+#### Networking
+
+|   Index | Nom                                                          | Difficulté   | Pratique                                                                                                               |
+|---------|--------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------|
+|      01 | 🧩  Configuration du réseau IPv4 et résolution de noms d'hôte | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-ipv4-networking-and-hostname-resolution-663364?course=lfcs-prep) |
+|      02 | 🧩  Configuration de l'adressage IPv6                         | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-ipv6-addressing-663365?course=lfcs-prep)                         |
+|      03 | 🧩  Synchroniser l'heure du système                           | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/synchronize-system-time-663403?course=lfcs-prep)                           |
+|      04 | 🧩  Dépanner la connectivité réseau                           | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/troubleshoot-network-connectivity-663407?course=lfcs-prep)                 |
+|      05 | 🧩  Configurer l'accès client OpenSSH                         | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-openssh-client-access-663369?course=lfcs-prep)                   |
+|      06 | 🧩  Configurer l'accès au serveur OpenSSH                     | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-openssh-server-access-663370?course=lfcs-prep)                   |
+|      07 | 🧩  Configurer le filtrage de paquets du pare-feu             | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-firewall-packet-filtering-663363?course=lfcs-prep)               |
+|      08 | 🧩  Configurer le routage statique                            | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-static-routing-663375?course=lfcs-prep)                          |
+|      09 | 🧩  Configuration de la redirection de port et du NAT         | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-port-redirection-and-nat-663372?course=lfcs-prep)                |
+|      10 | 🧩  Configurer un point de terminaison de proxy inverse       | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-a-reverse-proxy-endpoint-663373?course=lfcs-prep)                |
+|      11 | 🧩  Configurer des périphériques Bridge et Bond               | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-bridge-and-bond-devices-663360?course=lfcs-prep)                 |
+
+#### Storage and Filesystems
+
+|   Index | Nom                                                             | Difficulté   | Pratique                                                                                                     |
+|---------|-----------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------|
+|      01 | 🧩  Inspecter les périphériques de bloc et les points de montage | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/inspect-block-devices-and-mounts-663387?course=lfcs-prep)        |
+|      02 | 🧩  Créer et monter des systèmes de fichiers                     | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/create-and-mount-filesystems-663379?course=lfcs-prep)            |
+|      03 | 🧩  Configurer des points de montage persistants                 | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-persistent-mounts-663371?course=lfcs-prep)             |
+|      04 | 🧩  Dépannage des erreurs fstab et de montage                    | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/troubleshoot-fstab-and-mount-failures-663406?course=lfcs-prep)   |
+|      05 | 🧩  Créer un stockage LVM                                        | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/create-lvm-storage-663380?course=lfcs-prep)                      |
+|      06 | 🧩  Étendre le stockage LVM                                      | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/extend-lvm-storage-663383?course=lfcs-prep)                      |
+|      07 | 🧩  Configurer l'espace d'échange (Swap)                         | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-swap-space-663376?course=lfcs-prep)                    |
+|      08 | 🧩  Configurer tmpfs et les systèmes de fichiers virtuels        | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-tmpfs-and-virtual-filesystems-663377?course=lfcs-prep) |
+|      09 | 🧩  Configurer le montage automatique de systèmes de fichiers    | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/configure-filesystem-automounts-663362?course=lfcs-prep)         |
+|      10 | 🧩  Monter des systèmes de fichiers distants                     | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/mount-remote-filesystems-663398?course=lfcs-prep)                |
+|      11 | 🧩  Utiliser des périphériques de bloc réseau (NBD)              | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/use-network-block-devices-663408?course=lfcs-prep)               |
+|      12 | 🧩  Surveiller les performances de stockage                      | Débutant     | [Commencer le Lab](https://labex.io/fr/labs/monitor-storage-performance-663396?course=lfcs-prep)             |
 
 ### 2. [Examen blanc LFCS 01](https://labex.io/fr/courses/lfcs-practice-exam-01)
 
@@ -80,28 +102,50 @@ Un examen blanc pratique pour la certification LFCS composé de 20 défis d'admi
 
 [Commencer le Cours](https://labex.io/fr/courses/lfcs-practice-exam-01) · Labs: 20
 
-|   Index | Nom                                                   | Difficulté   | Pratique                                                                                                                  |
-|---------|-------------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------------------|
-|      01 | 🎯  Réparer un service systemd défaillant              | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/repair-a-failed-systemd-service-662858?course=lfcs-practice-exam-01)         |
-|      02 | 🎯  Planifier une tâche de maintenance récurrente      | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/schedule-a-recurring-maintenance-job-662860?course=lfcs-practice-exam-01)    |
-|      03 | 🎯  Configurer un paramètre noyau persistant           | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-a-persistent-kernel-parameter-662848?course=lfcs-practice-exam-01) |
-|      04 | 🎯  Installer et valider un paquet requis              | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/install-and-validate-a-required-package-662856?course=lfcs-practice-exam-01) |
-|      05 | 🎯  Exécuter un service conteneurisé local             | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/run-a-local-containerized-service-662859?course=lfcs-practice-exam-01)       |
-|      06 | 🎯  Configurer la résolution de nom d'hôte local       | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-local-hostname-resolution-662846?course=lfcs-practice-exam-01)     |
-|      07 | 🎯  Sécuriser le serveur OpenSSH                       | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/secure-the-openssh-server-662861?course=lfcs-practice-exam-01)               |
-|      08 | 🎯  Autoriser le trafic Web via le pare-feu            | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/allow-web-traffic-through-the-firewall-662844?course=lfcs-practice-exam-01)  |
-|      09 | 🎯  Configurer une route statique                      | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-a-static-route-662850?course=lfcs-practice-exam-01)                |
-|      10 | 🎯  Configurer la synchronisation temporelle réseau    | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-network-time-synchronization-662847?course=lfcs-practice-exam-01)  |
-|      11 | 🎯  Créer un système de fichiers persistant            | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-a-persistent-filesystem-662854?course=lfcs-practice-exam-01)          |
-|      12 | 🎯  Créer un volume logique LVM                        | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-an-lvm-logical-volume-662853?course=lfcs-practice-exam-01)            |
-|      13 | 🎯  Configurer un swap persistant                      | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-persistent-swap-662849?course=lfcs-practice-exam-01)               |
-|      14 | 🎯  Réparer une entrée fstab corrompue                 | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/repair-a-broken-fstab-entry-662857?course=lfcs-practice-exam-01)             |
-|      15 | 🎯  Suivi des modifications de configuration avec Git  | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/track-configuration-changes-with-git-662862?course=lfcs-practice-exam-01)    |
-|      16 | 🎯  Dépannage de l'utilisation du disque               | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/troubleshoot-disk-usage-662863?course=lfcs-practice-exam-01)                 |
-|      17 | 🎯  Inspecter un certificat TLS                        | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/inspect-a-tls-certificate-662855?course=lfcs-practice-exam-01)               |
-|      18 | 🎯  Analyser l'utilisation des ressources d'un service | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/analyze-service-resource-usage-662845?course=lfcs-practice-exam-01)          |
-|      19 | 🎯  Créer un utilisateur administrateur restreint      | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-a-limited-admin-user-662852?course=lfcs-practice-exam-01)             |
-|      20 | 🎯  Configurer les limites de ressources utilisateur   | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-user-resource-limits-662851?course=lfcs-practice-exam-01)          |
+#### Operations and Deployment
+
+|   Index | Nom                                              | Difficulté   | Pratique                                                                                                                  |
+|---------|--------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------------------|
+|       1 | 🎯  Réparer un service systemd défaillant         | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/repair-a-failed-systemd-service-662858?course=lfcs-practice-exam-01)         |
+|       2 | 🎯  Planifier une tâche de maintenance récurrente | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/schedule-a-recurring-maintenance-job-662860?course=lfcs-practice-exam-01)    |
+|       3 | 🎯  Configurer un paramètre noyau persistant      | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-a-persistent-kernel-parameter-662848?course=lfcs-practice-exam-01) |
+|       4 | 🎯  Installer et valider un paquet requis         | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/install-and-validate-a-required-package-662856?course=lfcs-practice-exam-01) |
+|       5 | 🎯  Exécuter un service conteneurisé local        | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/run-a-local-containerized-service-662859?course=lfcs-practice-exam-01)       |
+
+#### Networking
+
+|   Index | Nom                                                | Difficulté   | Pratique                                                                                                                 |
+|---------|----------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------------------------------|
+|       1 | 🎯  Configurer la résolution de nom d'hôte local    | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-local-hostname-resolution-662846?course=lfcs-practice-exam-01)    |
+|       2 | 🎯  Sécuriser le serveur OpenSSH                    | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/secure-the-openssh-server-662861?course=lfcs-practice-exam-01)              |
+|       3 | 🎯  Autoriser le trafic Web via le pare-feu         | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/allow-web-traffic-through-the-firewall-662844?course=lfcs-practice-exam-01) |
+|       4 | 🎯  Configurer une route statique                   | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-a-static-route-662850?course=lfcs-practice-exam-01)               |
+|       5 | 🎯  Configurer la synchronisation temporelle réseau | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-network-time-synchronization-662847?course=lfcs-practice-exam-01) |
+
+#### Storage
+
+|   Index | Nom                                        | Difficulté   | Pratique                                                                                                         |
+|---------|--------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------|
+|       1 | 🎯  Créer un système de fichiers persistant | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-a-persistent-filesystem-662854?course=lfcs-practice-exam-01) |
+|       2 | 🎯  Créer un volume logique LVM             | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-an-lvm-logical-volume-662853?course=lfcs-practice-exam-01)   |
+|       3 | 🎯  Configurer un swap persistant           | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-persistent-swap-662849?course=lfcs-practice-exam-01)      |
+|       4 | 🎯  Réparer une entrée fstab corrompue      | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/repair-a-broken-fstab-entry-662857?course=lfcs-practice-exam-01)    |
+
+#### Essential Commands
+
+|   Index | Nom                                                   | Difficulté   | Pratique                                                                                                               |
+|---------|-------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------|
+|       1 | 🎯  Suivi des modifications de configuration avec Git  | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/track-configuration-changes-with-git-662862?course=lfcs-practice-exam-01) |
+|       2 | 🎯  Dépannage de l'utilisation du disque               | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/troubleshoot-disk-usage-662863?course=lfcs-practice-exam-01)              |
+|       3 | 🎯  Inspecter un certificat TLS                        | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/inspect-a-tls-certificate-662855?course=lfcs-practice-exam-01)            |
+|       4 | 🎯  Analyser l'utilisation des ressources d'un service | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/analyze-service-resource-usage-662845?course=lfcs-practice-exam-01)       |
+
+#### Users and Groups
+
+|   Index | Nom                                                 | Difficulté   | Pratique                                                                                                         |
+|---------|-----------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------|
+|       1 | 🎯  Créer un utilisateur administrateur restreint    | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-a-limited-admin-user-662852?course=lfcs-practice-exam-01)    |
+|       2 | 🎯  Configurer les limites de ressources utilisateur | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-user-resource-limits-662851?course=lfcs-practice-exam-01) |
 
 ### 3. [LFCS Practice Exam 02](https://labex.io/fr/courses/lfcs-practice-exam-02)
 
@@ -109,28 +153,50 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 
 [Commencer le Cours](https://labex.io/fr/courses/lfcs-practice-exam-02) · Labs: 20
 
-|   Index | Nom                                                         | Difficulté   | Pratique                                                                                                                      |
-|---------|-------------------------------------------------------------|--------------|-------------------------------------------------------------------------------------------------------------------------------|
-|      01 | 🎯  Créer un timer systemd pour les contrôles de santé       | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-a-systemd-timer-for-health-checks-662874?course=lfcs-practice-exam-02)    |
-|      02 | 🎯  Configurer un dépôt APT local                            | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-a-local-apt-repository-662868?course=lfcs-practice-exam-02)            |
-|      03 | 🎯  Récupérer un environnement de service mal configuré      | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/recover-a-misconfigured-service-environment-662878?course=lfcs-practice-exam-02) |
-|      04 | 🎯  Exécuter un worker de conteneur persistant               | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/run-a-persistent-container-worker-662882?course=lfcs-practice-exam-02)           |
-|      05 | 🎯  Supprimer un verrou de maintenance obsolète              | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/clear-a-safe-maintenance-blocker-662865?course=lfcs-practice-exam-02)            |
-|      06 | 🎯  Configurer l'adressage IPv6                              | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-ipv6-addressing-662867?course=lfcs-practice-exam-02)                   |
-|      07 | 🎯  Dépanner un port de service local                        | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/troubleshoot-a-local-service-port-662883?course=lfcs-practice-exam-02)           |
-|      08 | 🎯  Configurer l'accès client SSH                            | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-ssh-client-access-662872?course=lfcs-practice-exam-02)                 |
-|      09 | 🎯  Rediriger un port TCP local                              | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/redirect-a-local-tcp-port-662879?course=lfcs-practice-exam-02)                   |
-|      10 | 🎯  Configurer un point de terminaison de proxy inverse      | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-a-reverse-proxy-endpoint-662869?course=lfcs-practice-exam-02)          |
-|      11 | 🎯  Étendre un volume logique LVM                            | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/extend-an-lvm-logical-volume-662876?course=lfcs-practice-exam-02)                |
-|      12 | 🎯  Configurer un système de fichiers temporaire d'exécution | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-a-temporary-runtime-filesystem-662870?course=lfcs-practice-exam-02)    |
-|      13 | 🎯  Configurer un montage d'archive à la demande             | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-an-on-demand-archive-mount-662866?course=lfcs-practice-exam-02)        |
-|      14 | 🎯  Réparer et monter une image de système de fichiers       | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/repair-and-mount-a-filesystem-image-662880?course=lfcs-practice-exam-02)         |
-|      15 | 🎯  Restaurer une configuration depuis Git                   | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/restore-a-configuration-from-git-662881?course=lfcs-practice-exam-02)            |
-|      16 | 🎯  Extraire les événements de connexion échoués             | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/extract-failed-login-events-662877?course=lfcs-practice-exam-02)                 |
-|      17 | 🎯  Créer une archive de sauvegarde vérifiée                 | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-a-verified-backup-archive-662875?course=lfcs-practice-exam-02)            |
-|      18 | 🎯  Analyser une défaillance due à une contrainte de service | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/analyze-a-service-constraint-failure-662864?course=lfcs-practice-exam-02)        |
-|      19 | 🎯  Configurer les ACL d'un répertoire partagé               | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-shared-directory-acls-662871?course=lfcs-practice-exam-02)             |
-|      20 | 🎯  Créer un compte de service contrôlé                      | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-a-controlled-service-account-662873?course=lfcs-practice-exam-02)         |
+#### Operations and Deployment
+
+|   Index | Nom                                                    | Difficulté   | Pratique                                                                                                                      |
+|---------|--------------------------------------------------------|--------------|-------------------------------------------------------------------------------------------------------------------------------|
+|       1 | 🎯  Créer un timer systemd pour les contrôles de santé  | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-a-systemd-timer-for-health-checks-662874?course=lfcs-practice-exam-02)    |
+|       2 | 🎯  Configurer un dépôt APT local                       | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-a-local-apt-repository-662868?course=lfcs-practice-exam-02)            |
+|       3 | 🎯  Récupérer un environnement de service mal configuré | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/recover-a-misconfigured-service-environment-662878?course=lfcs-practice-exam-02) |
+|       4 | 🎯  Exécuter un worker de conteneur persistant          | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/run-a-persistent-container-worker-662882?course=lfcs-practice-exam-02)           |
+|       5 | 🎯  Supprimer un verrou de maintenance obsolète         | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/clear-a-safe-maintenance-blocker-662865?course=lfcs-practice-exam-02)            |
+
+#### Networking
+
+|   Index | Nom                                                    | Difficulté   | Pratique                                                                                                             |
+|---------|--------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------|
+|       1 | 🎯  Configurer l'adressage IPv6                         | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-ipv6-addressing-662867?course=lfcs-practice-exam-02)          |
+|       2 | 🎯  Dépanner un port de service local                   | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/troubleshoot-a-local-service-port-662883?course=lfcs-practice-exam-02)  |
+|       3 | 🎯  Configurer l'accès client SSH                       | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-ssh-client-access-662872?course=lfcs-practice-exam-02)        |
+|       4 | 🎯  Rediriger un port TCP local                         | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/redirect-a-local-tcp-port-662879?course=lfcs-practice-exam-02)          |
+|       5 | 🎯  Configurer un point de terminaison de proxy inverse | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-a-reverse-proxy-endpoint-662869?course=lfcs-practice-exam-02) |
+
+#### Storage
+
+|   Index | Nom                                                         | Difficulté   | Pratique                                                                                                                   |
+|---------|-------------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------------|
+|       1 | 🎯  Étendre un volume logique LVM                            | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/extend-an-lvm-logical-volume-662876?course=lfcs-practice-exam-02)             |
+|       2 | 🎯  Configurer un système de fichiers temporaire d'exécution | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-a-temporary-runtime-filesystem-662870?course=lfcs-practice-exam-02) |
+|       3 | 🎯  Configurer un montage d'archive à la demande             | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-an-on-demand-archive-mount-662866?course=lfcs-practice-exam-02)     |
+|       4 | 🎯  Réparer et monter une image de système de fichiers       | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/repair-and-mount-a-filesystem-image-662880?course=lfcs-practice-exam-02)      |
+
+#### Essential Commands
+
+|   Index | Nom                                                         | Difficulté   | Pratique                                                                                                               |
+|---------|-------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------|
+|       1 | 🎯  Restaurer une configuration depuis Git                   | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/restore-a-configuration-from-git-662881?course=lfcs-practice-exam-02)     |
+|       2 | 🎯  Extraire les événements de connexion échoués             | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/extract-failed-login-events-662877?course=lfcs-practice-exam-02)          |
+|       3 | 🎯  Créer une archive de sauvegarde vérifiée                 | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-a-verified-backup-archive-662875?course=lfcs-practice-exam-02)     |
+|       4 | 🎯  Analyser une défaillance due à une contrainte de service | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/analyze-a-service-constraint-failure-662864?course=lfcs-practice-exam-02) |
+
+#### Users and Groups
+
+|   Index | Nom                                           | Difficulté   | Pratique                                                                                                              |
+|---------|-----------------------------------------------|--------------|-----------------------------------------------------------------------------------------------------------------------|
+|       1 | 🎯  Configurer les ACL d'un répertoire partagé | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-shared-directory-acls-662871?course=lfcs-practice-exam-02)     |
+|       2 | 🎯  Créer un compte de service contrôlé        | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/create-a-controlled-service-account-662873?course=lfcs-practice-exam-02) |
 
 ## À propos de LabEx
 
