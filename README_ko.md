@@ -18,6 +18,8 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 
 ### 1. [LFCS 준비 과정](https://labex.io/ko/courses/lfcs-prep)
 
+[![LFCS 준비 과정](https://course-cover.labex.io/lfcs-prep.png?lang=ko)](https://labex.io/ko/courses/lfcs-prep)
+
 필수 명령어 워크플로우부터 사용자, 서비스, 네트워킹, 스토리지 관리에 이르기까지 49 개의 가이드형 리눅스 관리 실습으로 구성된 초보자 맞춤형 LFCS 대비 과정입니다.
 
 [코스 시작](https://labex.io/ko/courses/lfcs-prep) · 실습: 49
@@ -98,6 +100,8 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 
 ### 2. [LFCS 실전 모의고사 01](https://labex.io/ko/courses/lfcs-practice-exam-01)
 
+[![LFCS 실전 모의고사 01](https://course-cover.labex.io/lfcs-practice-exam-01.png?lang=ko)](https://labex.io/ko/courses/lfcs-practice-exam-01)
+
 운영 및 배포, 네트워크, 스토리지, 필수 명령어, 사용자 및 그룹 관리 등 LFCS 의 핵심 영역을 다루는 20 개의 독립적인 리눅스 관리 실습 과제로 구성된 LFCS 모의고사입니다.
 
 [코스 시작](https://labex.io/ko/courses/lfcs-practice-exam-01) · 실습: 20
@@ -148,6 +152,8 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 |     2 | 🎯  사용자 리소스 제한 구성  | 초급    | [도전 시작](https://labex.io/ko/labs/configure-user-resource-limits-662851?course=lfcs-practice-exam-01) |
 
 ### 3. [LFCS Practice Exam 02](https://labex.io/ko/courses/lfcs-practice-exam-02)
+
+[![LFCS Practice Exam 02](https://course-cover.labex.io/lfcs-practice-exam-02.png?lang=ko)](https://labex.io/ko/courses/lfcs-practice-exam-02)
 
 A second independent LFCS-style practice exam with 20 hands-on Linux administration challenges covering operations and deployment, networking, storage, essential commands, and users and groups.
 
