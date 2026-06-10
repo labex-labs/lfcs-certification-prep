@@ -1,8 +1,8 @@
-# LFCS-Schulung Zertifizierungsvorbereitung
+# LFCS-Schulung Certification Prep Path
 
 ## Sprachen
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇺🇸 [English](README.md) 🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 
 
 <div align="center">
 <a href="https://labex.io/de/learn/lfcs"><img width="128px" src="https://file.labex.io/path/OMeAELrqi3Ff.png"></a>
@@ -22,7 +22,7 @@ Ein einsteigerfreundlicher LFCS-Vorbereitungskurs mit 49 geführten Linux-Admini
 
 [Kurs Starten](https://labex.io/de/courses/lfcs-prep) · Labs: 49
 
-#### Essential Command Workflows
+#### Grundlegende Befehls-Workflows
 
 |   Index | Name                                                | Schwierigkeit   | Übung                                                                                                            |
 |---------|-----------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------|
@@ -32,7 +32,7 @@ Ein einsteigerfreundlicher LFCS-Vorbereitungskurs mit 49 geführten Linux-Admini
 |       4 | 🧩  SSL-Zertifikate untersuchen                      | Anfänger        | [Labor Starten](https://labex.io/de/labs/inspect-ssl-certificates-663389?course=lfcs-prep)                       |
 |       5 | 🧩  Konfigurations-Tracking mit Git                  | Anfänger        | [Labor Starten](https://labex.io/de/labs/track-configuration-with-git-663404?course=lfcs-prep)                   |
 
-#### Users, Groups, and Access Control
+#### Benutzer, Gruppen und Zugriffskontrolle
 
 |   Index | Name                                                  | Schwierigkeit   | Übung                                                                                                |
 |---------|-------------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Ein einsteigerfreundlicher LFCS-Vorbereitungskurs mit 49 geführten Linux-Admini
 |       6 | 🧩  Dateizugriffssteuerungslisten (ACLs) konfigurieren | Anfänger        | [Labor Starten](https://labex.io/de/labs/configure-file-acls-663361?course=lfcs-prep)                |
 |       7 | 🧩  LDAP-Benutzersuche konfigurieren                   | Anfänger        | [Labor Starten](https://labex.io/de/labs/configure-ldap-user-lookup-663367?course=lfcs-prep)         |
 
-#### Services, Jobs, Software, and Runtime
+#### Dienste, Jobs, Software und Laufzeitumgebung
 
 |   Index | Name                                                         | Schwierigkeit   | Übung                                                                                                             |
 |---------|--------------------------------------------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ Ein einsteigerfreundlicher LFCS-Vorbereitungskurs mit 49 geführten Linux-Admini
 |      13 | 🧩  SELinux-Modus und -Kontexte verwalten                     | Anfänger        | [Labor Starten](https://labex.io/de/labs/manage-selinux-mode-and-contexts-663392?course=lfcs-prep)                |
 |      14 | 🧩  Virtual Machine Management mit libvirt erkunden           | Anfänger        | [Labor Starten](https://labex.io/de/labs/explore-virtual-machine-management-with-libvirt-663382?course=lfcs-prep) |
 
-#### Networking
+#### Netzwerke
 
 |   Index | Name                                                  | Schwierigkeit   | Übung                                                                                                               |
 |---------|-------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Ein einsteigerfreundlicher LFCS-Vorbereitungskurs mit 49 geführten Linux-Admini
 |      10 | 🧩  Konfiguration eines Reverse-Proxy-Endpunkts        | Anfänger        | [Labor Starten](https://labex.io/de/labs/configure-a-reverse-proxy-endpoint-663373?course=lfcs-prep)                |
 |      11 | 🧩  Bridge- und Bond-Geräte konfigurieren              | Anfänger        | [Labor Starten](https://labex.io/de/labs/configure-bridge-and-bond-devices-663360?course=lfcs-prep)                 |
 
-#### Storage and Filesystems
+#### Speicher und Dateisysteme
 
 |   Index | Name                                                    | Schwierigkeit   | Übung                                                                                                     |
 |---------|---------------------------------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Eine praxisorientierte LFCS-Übungsprüfung mit 20 unabhängigen Linux-Administr
 
 [Kurs Starten](https://labex.io/de/courses/lfcs-practice-exam-01) · Labs: 20
 
-#### Operations and Deployment
+#### Betrieb und Bereitstellung
 
 |   Index | Name                                                    | Schwierigkeit   | Übung                                                                                                                     |
 |---------|---------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Eine praxisorientierte LFCS-Übungsprüfung mit 20 unabhängigen Linux-Administr
 |       4 | 🎯  Ein erforderliches Paket installieren und validieren | Anfänger        | [Challenge Starten](https://labex.io/de/labs/install-and-validate-a-required-package-662856?course=lfcs-practice-exam-01) |
 |       5 | 🎯  Einen lokalen containerisierten Dienst ausführen     | Anfänger        | [Challenge Starten](https://labex.io/de/labs/run-a-local-containerized-service-662859?course=lfcs-practice-exam-01)       |
 
-#### Networking
+#### Netzwerke
 
 |   Index | Name                                            | Schwierigkeit   | Übung                                                                                                                    |
 |---------|-------------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Eine praxisorientierte LFCS-Übungsprüfung mit 20 unabhängigen Linux-Administr
 |       4 | 🎯  Konfigurieren einer statischen Route         | Anfänger        | [Challenge Starten](https://labex.io/de/labs/configure-a-static-route-662850?course=lfcs-practice-exam-01)               |
 |       5 | 🎯  Netzwerk-Zeitsynchronisation konfigurieren   | Anfänger        | [Challenge Starten](https://labex.io/de/labs/configure-network-time-synchronization-662847?course=lfcs-practice-exam-01) |
 
-#### Storage
+#### Speicher
 
 |   Index | Name                                           | Schwierigkeit   | Übung                                                                                                            |
 |---------|------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ Eine praxisorientierte LFCS-Übungsprüfung mit 20 unabhängigen Linux-Administr
 |       3 | 🎯  Persistente Swap-Konfiguration              | Anfänger        | [Challenge Starten](https://labex.io/de/labs/configure-persistent-swap-662849?course=lfcs-practice-exam-01)      |
 |       4 | 🎯  Einen fehlerhaften fstab-Eintrag reparieren | Anfänger        | [Challenge Starten](https://labex.io/de/labs/repair-a-broken-fstab-entry-662857?course=lfcs-practice-exam-01)    |
 
-#### Essential Commands
+#### Grundlegende Befehle
 
 |   Index | Name                                              | Schwierigkeit   | Übung                                                                                                                  |
 |---------|---------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Eine praxisorientierte LFCS-Übungsprüfung mit 20 unabhängigen Linux-Administr
 |       3 | 🎯  Untersuchung eines TLS-Zertifikats             | Anfänger        | [Challenge Starten](https://labex.io/de/labs/inspect-a-tls-certificate-662855?course=lfcs-practice-exam-01)            |
 |       4 | 🎯  Ressourcennutzung eines Dienstes analysieren   | Anfänger        | [Challenge Starten](https://labex.io/de/labs/analyze-service-resource-usage-662845?course=lfcs-practice-exam-01)       |
 
-#### Users and Groups
+#### Benutzer und Gruppen
 
 |   Index | Name                                                      | Schwierigkeit   | Übung                                                                                                            |
 |---------|-----------------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 
 [Kurs Starten](https://labex.io/de/courses/lfcs-practice-exam-02) · Labs: 20
 
-#### Operations and Deployment
+#### Betrieb und Bereitstellung
 
 |   Index | Name                                                            | Schwierigkeit   | Übung                                                                                                                         |
 |---------|-----------------------------------------------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 |       4 | 🎯  Einen persistenten Container-Worker ausführen                | Anfänger        | [Challenge Starten](https://labex.io/de/labs/run-a-persistent-container-worker-662882?course=lfcs-practice-exam-02)           |
 |       5 | 🎯  Einen sicheren Wartungs-Blocker entfernen                    | Anfänger        | [Challenge Starten](https://labex.io/de/labs/clear-a-safe-maintenance-blocker-662865?course=lfcs-practice-exam-02)            |
 
-#### Networking
+#### Netzwerk
 
 |   Index | Name                                             | Schwierigkeit   | Übung                                                                                                                |
 |---------|--------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 |       4 | 🎯  Einen lokalen TCP-Port umleiten               | Anfänger        | [Challenge Starten](https://labex.io/de/labs/redirect-a-local-tcp-port-662879?course=lfcs-practice-exam-02)          |
 |       5 | 🎯  Konfiguration eines Reverse-Proxy-Endpunkts   | Anfänger        | [Challenge Starten](https://labex.io/de/labs/configure-a-reverse-proxy-endpoint-662869?course=lfcs-practice-exam-02) |
 
-#### Storage
+#### Speicher
 
 |   Index | Name                                                    | Schwierigkeit   | Übung                                                                                                                      |
 |---------|---------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 |       3 | 🎯  Konfiguration eines On-Demand-Archiv-Mounts          | Anfänger        | [Challenge Starten](https://labex.io/de/labs/configure-an-on-demand-archive-mount-662866?course=lfcs-practice-exam-02)     |
 |       4 | 🎯  Dateisystem-Image reparieren und einbinden           | Anfänger        | [Challenge Starten](https://labex.io/de/labs/repair-and-mount-a-filesystem-image-662880?course=lfcs-practice-exam-02)      |
 
-#### Essential Commands
+#### Grundlegende Befehle
 
 |   Index | Name                                            | Schwierigkeit   | Übung                                                                                                                  |
 |---------|-------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 |       3 | 🎯  Erstellen eines verifizierten Backup-Archivs | Anfänger        | [Challenge Starten](https://labex.io/de/labs/create-a-verified-backup-archive-662875?course=lfcs-practice-exam-02)     |
 |       4 | 🎯  Analyse eines Service-Constraint-Fehlers     | Anfänger        | [Challenge Starten](https://labex.io/de/labs/analyze-a-service-constraint-failure-662864?course=lfcs-practice-exam-02) |
 
-#### Users and Groups
+#### Benutzer und Gruppen
 
 |   Index | Name                                                 | Schwierigkeit   | Übung                                                                                                                 |
 |---------|------------------------------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------|
