@@ -18,6 +18,8 @@
 
 ### 1. [LFCS 备考指南](https://labex.io/zh/courses/lfcs-prep)
 
+[![LFCS 备考指南](https://course-cover.labex.io/lfcs-prep.png?lang=zh)](https://labex.io/zh/courses/lfcs-prep)
+
 专为初学者设计的 LFCS 备考课程，包含 49 个引导式 Linux 管理实验，内容涵盖从基础命令工作流到用户管理、服务配置、网络设置及存储管理等核心领域。
 
 [开始课程](https://labex.io/zh/courses/lfcs-prep) · 实验: 49
@@ -98,6 +100,8 @@
 
 ### 2. [LFCS 模拟考试 01](https://labex.io/zh/courses/lfcs-practice-exam-01)
 
+[![LFCS 模拟考试 01](https://course-cover.labex.io/lfcs-practice-exam-01.png?lang=zh)](https://labex.io/zh/courses/lfcs-practice-exam-01)
+
 这是一场实战型 LFCS 模拟考试，包含 20 个独立的 Linux 系统管理挑战，涵盖了运维与部署、网络、存储、基础命令以及用户与用户组管理等核心领域。
 
 [开始课程](https://labex.io/zh/courses/lfcs-practice-exam-01) · 实验: 20
@@ -148,6 +152,8 @@
 |    2 | 🎯  配置用户资源限制  | 初级   | [开始挑战](https://labex.io/zh/labs/configure-user-resource-limits-662851?course=lfcs-practice-exam-01) |
 
 ### 3. [LFCS 模拟考试 02](https://labex.io/zh/courses/lfcs-practice-exam-02)
+
+[![LFCS 模拟考试 02](https://course-cover.labex.io/lfcs-practice-exam-02.png?lang=zh)](https://labex.io/zh/courses/lfcs-practice-exam-02)
 
 第二套独立的 LFCS 风格模拟考试，包含 20 个 Linux 系统管理实战挑战，涵盖运维与部署、网络、存储、基础命令以及用户与用户组管理。
 
