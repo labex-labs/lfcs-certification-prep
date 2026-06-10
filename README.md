@@ -2,7 +2,7 @@
 
 ## Languages
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇺🇸 [English](README.md) 🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 
 
 <div align="center">
 <a href="https://labex.io/learn/lfcs"><img width="128px" src="https://file.labex.io/path/OMeAELrqi3Ff.png"></a>
@@ -18,7 +18,7 @@ Prepare for the Linux Foundation Certified System Administrator (LFCS) exam with
 
 ### 1. [LFCS Prep](https://labex.io/courses/lfcs-prep)
 
-A beginner-friendly LFCS preparation course with 49 guided Linux administration labs arranged from essential command workflows to users, services, networking, and storage.
+A beginner-friendly Linux Foundation Certified System Administrator (LFCS) preparation course with 49 guided Linux administration labs arranged from essential command workflows to users, services, networking, and storage.
 
 [Start Course](https://labex.io/courses/lfcs-prep) · Labs: 49
 
