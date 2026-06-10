@@ -1,8 +1,8 @@
-# LFCS 교육 인증 준비 경로
+# LFCS 교육 Certification Prep Path
 
 ## 언어
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇺🇸 [English](README.md) 🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 
 
 <div align="center">
 <a href="https://labex.io/ko/learn/lfcs"><img width="128px" src="https://file.labex.io/path/OMeAELrqi3Ff.png"></a>
@@ -22,7 +22,7 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 
 [코스 시작](https://labex.io/ko/courses/lfcs-prep) · 실습: 49
 
-#### Essential Command Workflows
+#### 필수 명령어 워크플로우
 
 |   인덱스 | 이름                                     | 난이도   | 연습                                                                                                       |
 |-------|----------------------------------------|-------|----------------------------------------------------------------------------------------------------------|
@@ -32,7 +32,7 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 |     4 | 🧩  SSL 인증서 검사                          | 초급    | [실습 시작](https://labex.io/ko/labs/inspect-ssl-certificates-663389?course=lfcs-prep)                       |
 |     5 | 🧩  Git 을 이용한 설정 파일 추적                  | 초급    | [실습 시작](https://labex.io/ko/labs/track-configuration-with-git-663404?course=lfcs-prep)                   |
 
-#### Users, Groups, and Access Control
+#### 사용자, 그룹 및 접근 제어
 
 |   인덱스 | 이름                 | 난이도   | 연습                                                                                           |
 |-------|--------------------|-------|----------------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 |     6 | 🧩  파일 ACL 구성       | 초급    | [실습 시작](https://labex.io/ko/labs/configure-file-acls-663361?course=lfcs-prep)                |
 |     7 | 🧩  LDAP 사용자 조회 구성  | 초급    | [실습 시작](https://labex.io/ko/labs/configure-ldap-user-lookup-663367?course=lfcs-prep)         |
 
-#### Services, Jobs, Software, and Runtime
+#### 서비스, 작업, 소프트웨어 및 런타임
 
 |   인덱스 | 이름                             | 난이도   | 연습                                                                                                        |
 |-------|--------------------------------|-------|-----------------------------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 |    13 | 🧩  SELinux 모드 및 컨텍스트 관리        | 초급    | [실습 시작](https://labex.io/ko/labs/manage-selinux-mode-and-contexts-663392?course=lfcs-prep)                |
 |    14 | 🧩  libvirt 를 이용한 가상 머신 관리 살펴보기 | 초급    | [실습 시작](https://labex.io/ko/labs/explore-virtual-machine-management-with-libvirt-663382?course=lfcs-prep) |
 
-#### Networking
+#### 네트워킹
 
 |   인덱스 | 이름                          | 난이도   | 연습                                                                                                          |
 |-------|-----------------------------|-------|-------------------------------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 |    10 | 🧩  리버스 프록시 엔드포인트 구성         | 초급    | [실습 시작](https://labex.io/ko/labs/configure-a-reverse-proxy-endpoint-663373?course=lfcs-prep)                |
 |    11 | 🧩  브리지 및 본드 장치 구성           | 초급    | [실습 시작](https://labex.io/ko/labs/configure-bridge-and-bond-devices-663360?course=lfcs-prep)                 |
 
-#### Storage and Filesystems
+#### 스토리지 및 파일 시스템
 
 |   인덱스 | 이름                       | 난이도   | 연습                                                                                                |
 |-------|--------------------------|-------|---------------------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 
 [코스 시작](https://labex.io/ko/courses/lfcs-practice-exam-01) · 실습: 20
 
-#### Operations and Deployment
+#### 운영 및 배포
 
 |   인덱스 | 이름                    | 난이도   | 연습                                                                                                            |
 |-------|-----------------------|-------|---------------------------------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 |     4 | 🎯  필수 패키지 설치 및 검증     | 초급    | [도전 시작](https://labex.io/ko/labs/install-and-validate-a-required-package-662856?course=lfcs-practice-exam-01) |
 |     5 | 🎯  로컬 컨테이너화된 서비스 실행   | 초급    | [도전 시작](https://labex.io/ko/labs/run-a-local-containerized-service-662859?course=lfcs-practice-exam-01)       |
 
-#### Networking
+#### 네트워킹
 
 |   인덱스 | 이름                         | 난이도   | 연습                                                                                                           |
 |-------|----------------------------|-------|--------------------------------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 |     4 | 🎯  정적 경로 (Static Route) 구성 | 초급    | [도전 시작](https://labex.io/ko/labs/configure-a-static-route-662850?course=lfcs-practice-exam-01)               |
 |     5 | 🎯  네트워크 시간 동기화 구성          | 초급    | [도전 시작](https://labex.io/ko/labs/configure-network-time-synchronization-662847?course=lfcs-practice-exam-01) |
 
-#### Storage
+#### 스토리지
 
 |   인덱스 | 이름                 | 난이도   | 연습                                                                                                   |
 |-------|--------------------|-------|------------------------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 |     3 | 🎯  영구 스왑 (Swap) 구성 | 초급    | [도전 시작](https://labex.io/ko/labs/configure-persistent-swap-662849?course=lfcs-practice-exam-01)      |
 |     4 | 🎯  손상된 fstab 항목 복구 | 초급    | [도전 시작](https://labex.io/ko/labs/repair-a-broken-fstab-entry-662857?course=lfcs-practice-exam-01)    |
 
-#### Essential Commands
+#### 필수 명령어
 
 |   인덱스 | 이름                       | 난이도   | 연습                                                                                                         |
 |-------|--------------------------|-------|------------------------------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Linux Foundation Certified System Administrator(LFCS) 시험을 위해 구조화
 |     3 | 🎯  TLS 인증서 검사            | 초급    | [도전 시작](https://labex.io/ko/labs/inspect-a-tls-certificate-662855?course=lfcs-practice-exam-01)            |
 |     4 | 🎯  서비스 리소스 사용량 분석        | 초급    | [도전 시작](https://labex.io/ko/labs/analyze-service-resource-usage-662845?course=lfcs-practice-exam-01)       |
 
-#### Users and Groups
+#### 사용자 및 그룹
 
 |   인덱스 | 이름                | 난이도   | 연습                                                                                                   |
 |-------|-------------------|-------|------------------------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 
 [코스 시작](https://labex.io/ko/courses/lfcs-practice-exam-02) · 실습: 20
 
-#### Operations and Deployment
+#### 운영 및 배포
 
 |   인덱스 | 이름                          | 난이도   | 연습                                                                                                                |
 |-------|-----------------------------|-------|-------------------------------------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 |     4 | 🎯  지속 가능한 컨테이너 워커 실행        | 초급    | [도전 시작](https://labex.io/ko/labs/run-a-persistent-container-worker-662882?course=lfcs-practice-exam-02)           |
 |     5 | 🎯  안전한 유지보수 차단 요소 제거        | 초급    | [도전 시작](https://labex.io/ko/labs/clear-a-safe-maintenance-blocker-662865?course=lfcs-practice-exam-02)            |
 
-#### Networking
+#### 네트워킹
 
 |   인덱스 | 이름                  | 난이도   | 연습                                                                                                       |
 |-------|---------------------|-------|----------------------------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 |     4 | 🎯  로컬 TCP 포트 리다이렉트  | 초급    | [도전 시작](https://labex.io/ko/labs/redirect-a-local-tcp-port-662879?course=lfcs-practice-exam-02)          |
 |     5 | 🎯  리버스 프록시 엔드포인트 구성 | 초급    | [도전 시작](https://labex.io/ko/labs/configure-a-reverse-proxy-endpoint-662869?course=lfcs-practice-exam-02) |
 
-#### Storage
+#### 스토리지
 
 |   인덱스 | 이름                     | 난이도   | 연습                                                                                                             |
 |-------|------------------------|-------|----------------------------------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 |     3 | 🎯  온디맨드 아카이브 마운트 구성    | 초급    | [도전 시작](https://labex.io/ko/labs/configure-an-on-demand-archive-mount-662866?course=lfcs-practice-exam-02)     |
 |     4 | 🎯  파일 시스템 이미지 복구 및 마운트 | 초급    | [도전 시작](https://labex.io/ko/labs/repair-and-mount-a-filesystem-image-662880?course=lfcs-practice-exam-02)      |
 
-#### Essential Commands
+#### 필수 명령어
 
 |   인덱스 | 이름                 | 난이도   | 연습                                                                                                         |
 |-------|--------------------|-------|------------------------------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ A second independent LFCS-style practice exam with 20 hands-on Linux administrat
 |     3 | 🎯  검증된 백업 아카이브 생성  | 초급    | [도전 시작](https://labex.io/ko/labs/create-a-verified-backup-archive-662875?course=lfcs-practice-exam-02)     |
 |     4 | 🎯  서비스 제약 실패 분석    | 초급    | [도전 시작](https://labex.io/ko/labs/analyze-a-service-constraint-failure-662864?course=lfcs-practice-exam-02) |
 
-#### Users and Groups
+#### 사용자 및 그룹
 
 |   인덱스 | 이름                  | 난이도   | 연습                                                                                                        |
 |-------|---------------------|-------|-----------------------------------------------------------------------------------------------------------|
