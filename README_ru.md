@@ -18,6 +18,8 @@
 
 ### 1. [Подготовка к LFCS](https://labex.io/ru/courses/lfcs-prep)
 
+[![Подготовка к LFCS](https://course-cover.labex.io/lfcs-prep.png?lang=ru)](https://labex.io/ru/courses/lfcs-prep)
+
 Курс по подготовке к экзамену LFCS для начинающих, включающий 49 практических заданий по администрированию Linux: от базовых команд до управления пользователями, службами, сетью и хранилищами данных.
 
 [Начать Курс](https://labex.io/ru/courses/lfcs-prep) · Лаборатории: 49
@@ -98,6 +100,8 @@
 
 ### 2. [Практический экзамен LFCS 01](https://labex.io/ru/courses/lfcs-practice-exam-01)
 
+[![Практический экзамен LFCS 01](https://course-cover.labex.io/lfcs-practice-exam-01.png?lang=ru)](https://labex.io/ru/courses/lfcs-practice-exam-01)
+
 Практический экзамен LFCS, состоящий из 20 независимых заданий по администрированию Linux, охватывающих эксплуатацию и развертывание, работу с сетями, хранилищами, базовыми командами, а также управление пользователями и группами.
 
 [Начать Курс](https://labex.io/ru/courses/lfcs-practice-exam-01) · Лаборатории: 20
@@ -148,6 +152,8 @@
 |        2 | 🎯  Настройка лимитов ресурсов пользователя                      | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/configure-user-resource-limits-662851?course=lfcs-practice-exam-01) |
 
 ### 3. [LFCS Practice Exam 02](https://labex.io/ru/courses/lfcs-practice-exam-02)
+
+[![LFCS Practice Exam 02](https://course-cover.labex.io/lfcs-practice-exam-02.png?lang=ru)](https://labex.io/ru/courses/lfcs-practice-exam-02)
 
 A second independent LFCS-style practice exam with 20 hands-on Linux administration challenges covering operations and deployment, networking, storage, essential commands, and users and groups.
 
