@@ -1,8 +1,8 @@
-# LFCS 培训 认证备考路径
+# LFCS 培训 Certification Prep Path
 
 ## 支持语言
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇺🇸 [English](README.md) 🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 
 
 <div align="center">
 <a href="https://labex.io/zh/learn/lfcs"><img width="128px" src="https://file.labex.io/path/OMeAELrqi3Ff.png"></a>
@@ -22,7 +22,7 @@
 
 [开始课程](https://labex.io/zh/courses/lfcs-prep) · 实验: 49
 
-#### Essential Command Workflows
+#### 基础命令工作流
 
 |   序号 | 名称                                | 难度   | 练习                                                                                                      |
 |------|-----------------------------------|------|---------------------------------------------------------------------------------------------------------|
@@ -32,7 +32,7 @@
 |    4 | 🧩  检查 SSL 证书                      | 初级   | [开始实验](https://labex.io/zh/labs/inspect-ssl-certificates-663389?course=lfcs-prep)                       |
 |    5 | 🧩  使用 Git 跟踪配置文件                  | 初级   | [开始实验](https://labex.io/zh/labs/track-configuration-with-git-663404?course=lfcs-prep)                   |
 
-#### Users, Groups, and Access Control
+#### 用户、用户组与访问控制
 
 |   序号 | 名称                 | 难度   | 练习                                                                                          |
 |------|--------------------|------|---------------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@
 |    6 | 🧩  配置文件 ACL        | 初级   | [开始实验](https://labex.io/zh/labs/configure-file-acls-663361?course=lfcs-prep)                |
 |    7 | 🧩  配置 LDAP 用户查询    | 初级   | [开始实验](https://labex.io/zh/labs/configure-ldap-user-lookup-663367?course=lfcs-prep)         |
 
-#### Services, Jobs, Software, and Runtime
+#### 服务、作业、软件与运行时
 
 |   序号 | 名称                    | 难度   | 练习                                                                                                       |
 |------|-----------------------|------|----------------------------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@
 |   13 | 🧩  管理 SELinux 模式与上下文  | 初级   | [开始实验](https://labex.io/zh/labs/manage-selinux-mode-and-contexts-663392?course=lfcs-prep)                |
 |   14 | 🧩  使用 libvirt 探索虚拟机管理 | 初级   | [开始实验](https://labex.io/zh/labs/explore-virtual-machine-management-with-libvirt-663382?course=lfcs-prep) |
 
-#### Networking
+#### 网络
 
 |   序号 | 名称                  | 难度   | 练习                                                                                                         |
 |------|---------------------|------|------------------------------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@
 |   10 | 🧩  配置反向代理端点         | 初级   | [开始实验](https://labex.io/zh/labs/configure-a-reverse-proxy-endpoint-663373?course=lfcs-prep)                |
 |   11 | 🧩  配置网桥与绑定设备        | 初级   | [开始实验](https://labex.io/zh/labs/configure-bridge-and-bond-devices-663360?course=lfcs-prep)                 |
 
-#### Storage and Filesystems
+#### 存储与文件系统
 
 |   序号 | 名称                  | 难度   | 练习                                                                                               |
 |------|---------------------|------|--------------------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@
 
 [开始课程](https://labex.io/zh/courses/lfcs-practice-exam-01) · 实验: 20
 
-#### Operations and Deployment
+#### 运维与部署
 
 |   序号 | 名称                  | 难度   | 练习                                                                                                           |
 |------|---------------------|------|--------------------------------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@
 |    4 | 🎯  安装并验证所需的软件包      | 初级   | [开始挑战](https://labex.io/zh/labs/install-and-validate-a-required-package-662856?course=lfcs-practice-exam-01) |
 |    5 | 🎯  运行本地容器化服务        | 初级   | [开始挑战](https://labex.io/zh/labs/run-a-local-containerized-service-662859?course=lfcs-practice-exam-01)       |
 
-#### Networking
+#### 网络
 
 |   序号 | 名称                | 难度   | 练习                                                                                                          |
 |------|-------------------|------|-------------------------------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@
 |    4 | 🎯  配置静态路由         | 初级   | [开始挑战](https://labex.io/zh/labs/configure-a-static-route-662850?course=lfcs-practice-exam-01)               |
 |    5 | 🎯  配置网络时间同步       | 初级   | [开始挑战](https://labex.io/zh/labs/configure-network-time-synchronization-662847?course=lfcs-practice-exam-01) |
 
-#### Storage
+#### 存储
 
 |   序号 | 名称                | 难度   | 练习                                                                                                  |
 |------|-------------------|------|-----------------------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@
 |    3 | 🎯  配置持久化交换空间      | 初级   | [开始挑战](https://labex.io/zh/labs/configure-persistent-swap-662849?course=lfcs-practice-exam-01)      |
 |    4 | 🎯  修复损坏的 fstab 条目 | 初级   | [开始挑战](https://labex.io/zh/labs/repair-a-broken-fstab-entry-662857?course=lfcs-practice-exam-01)    |
 
-#### Essential Commands
+#### 基础命令
 
 |   序号 | 名称               | 难度   | 练习                                                                                                        |
 |------|------------------|------|-----------------------------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@
 |    3 | 🎯  检查 TLS 证书     | 初级   | [开始挑战](https://labex.io/zh/labs/inspect-a-tls-certificate-662855?course=lfcs-practice-exam-01)            |
 |    4 | 🎯  分析服务资源使用情况    | 初级   | [开始挑战](https://labex.io/zh/labs/analyze-service-resource-usage-662845?course=lfcs-practice-exam-01)       |
 
-#### Users and Groups
+#### 用户与用户组
 
 |   序号 | 名称           | 难度   | 练习                                                                                                  |
 |------|--------------|------|-----------------------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@
 
 [开始课程](https://labex.io/zh/courses/lfcs-practice-exam-02) · 实验: 20
 
-#### Operations and Deployment
+#### 运维与部署
 
 |   序号 | 名称                     | 难度   | 练习                                                                                                               |
 |------|------------------------|------|------------------------------------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@
 |    4 | 🎯  运行一个持久化的容器工作进程      | 初级   | [开始挑战](https://labex.io/zh/labs/run-a-persistent-container-worker-662882?course=lfcs-practice-exam-02)           |
 |    5 | 🎯  清除安全维护阻塞            | 初级   | [开始挑战](https://labex.io/zh/labs/clear-a-safe-maintenance-blocker-662865?course=lfcs-practice-exam-02)            |
 
-#### Networking
+#### 网络
 
 |   序号 | 名称              | 难度   | 练习                                                                                                      |
 |------|-----------------|------|---------------------------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@
 |    4 | 🎯  重定向本地 TCP 端口 | 初级   | [开始挑战](https://labex.io/zh/labs/redirect-a-local-tcp-port-662879?course=lfcs-practice-exam-02)          |
 |    5 | 🎯  配置反向代理端点     | 初级   | [开始挑战](https://labex.io/zh/labs/configure-a-reverse-proxy-endpoint-662869?course=lfcs-practice-exam-02) |
 
-#### Storage
+#### 存储
 
 |   序号 | 名称             | 难度   | 练习                                                                                                            |
 |------|----------------|------|---------------------------------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@
 |    3 | 🎯  配置按需挂载的归档文件 | 初级   | [开始挑战](https://labex.io/zh/labs/configure-an-on-demand-archive-mount-662866?course=lfcs-practice-exam-02)     |
 |    4 | 🎯  修复并挂载文件系统镜像 | 初级   | [开始挑战](https://labex.io/zh/labs/repair-and-mount-a-filesystem-image-662880?course=lfcs-practice-exam-02)      |
 
-#### Essential Commands
+#### 基础命令
 
 |   序号 | 名称            | 难度   | 练习                                                                                                        |
 |------|---------------|------|-----------------------------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@
 |    3 | 🎯  创建已验证的备份归档 | 初级   | [开始挑战](https://labex.io/zh/labs/create-a-verified-backup-archive-662875?course=lfcs-practice-exam-02)     |
 |    4 | 🎯  分析服务约束故障   | 初级   | [开始挑战](https://labex.io/zh/labs/analyze-a-service-constraint-failure-662864?course=lfcs-practice-exam-02) |
 
-#### Users and Groups
+#### 用户与用户组
 
 |   序号 | 名称            | 难度   | 练习                                                                                                       |
 |------|---------------|------|----------------------------------------------------------------------------------------------------------|
