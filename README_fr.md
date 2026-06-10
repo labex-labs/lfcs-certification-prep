@@ -18,6 +18,8 @@ Préparez-vous à l'examen Linux Foundation Certified System Administrator (LFCS
 
 ### 1. [Préparation LFCS](https://labex.io/fr/courses/lfcs-prep)
 
+[![Préparation LFCS](https://course-cover.labex.io/lfcs-prep.png?lang=fr)](https://labex.io/fr/courses/lfcs-prep)
+
 Un cours de préparation au LFCS adapté aux débutants, comprenant 49 travaux pratiques guidés d'administration Linux, allant des flux de travail essentiels en ligne de commande à la gestion des utilisateurs, des services, du réseau et du stockage.
 
 [Commencer le Cours](https://labex.io/fr/courses/lfcs-prep) · Labs: 49
@@ -98,6 +100,8 @@ Un cours de préparation au LFCS adapté aux débutants, comprenant 49 travaux p
 
 ### 2. [Examen blanc LFCS 01](https://labex.io/fr/courses/lfcs-practice-exam-01)
 
+[![Examen blanc LFCS 01](https://course-cover.labex.io/lfcs-practice-exam-01.png?lang=fr)](https://labex.io/fr/courses/lfcs-practice-exam-01)
+
 Un examen blanc pratique pour la certification LFCS composé de 20 défis d'administration Linux indépendants, couvrant les opérations et le déploiement, la mise en réseau, le stockage, les commandes essentielles, ainsi que la gestion des utilisateurs et des groupes.
 
 [Commencer le Cours](https://labex.io/fr/courses/lfcs-practice-exam-01) · Labs: 20
@@ -148,6 +152,8 @@ Un examen blanc pratique pour la certification LFCS composé de 20 défis d'admi
 |       2 | 🎯  Configurer les limites de ressources utilisateur | Débutant     | [Commencer le Défi](https://labex.io/fr/labs/configure-user-resource-limits-662851?course=lfcs-practice-exam-01) |
 
 ### 3. [LFCS Practice Exam 02](https://labex.io/fr/courses/lfcs-practice-exam-02)
+
+[![LFCS Practice Exam 02](https://course-cover.labex.io/lfcs-practice-exam-02.png?lang=fr)](https://labex.io/fr/courses/lfcs-practice-exam-02)
 
 A second independent LFCS-style practice exam with 20 hands-on Linux administration challenges covering operations and deployment, networking, storage, essential commands, and users and groups.
 
